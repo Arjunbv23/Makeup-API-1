@@ -1,0 +1,78 @@
+body{
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 37, 37);
+    background-image: none;
+}
+
+img{
+    display:flexbox;
+    margin-left: 55px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    /* margin-inline: 10px; */
+    width: 550px;
+    padding: 5px;
+    border: 10px;
+    row-gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+    place-content: center;
+    background-color: rgb(151, 151, 151);
+    border-radius: 50px;
+    box-shadow: 0px 0px 8px  whitesmoke;
+    transition: all 0.5s ease-in-out;
+}
+
+img:hover{
+    box-shadow: 0px 0px 8px white;
+    transform: scale(1.05);
+    
+
+}
+
+header{
+    background-color: rgb(255, 251, 0);
+    padding: 15px;
+    margin: 10px;
+    text-decoration:underline black;
+}
+
+.product_list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    place-content: center;
+}
+
+
+.product-container{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    gap: 10px;
+    padding: 16px;
+    margin: 16px;
+    margin-top: 10px;
+    background: darkslateblue;
+    max-width: 400px;
+    width: 250px;
+    box-shadow: 0px 0px 8px white;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.product-image{
+    width: 150px;
+}
+
+.product-container:hover{
+    background: linear-gradient(to right, rgb(46, 204, 130), ), pink;
+    color: rgb(28, 177, 28);
+    transition-delay: 100ms;
+    transition: 400ms;
+    cursor: pointer;
+    /* -webkit-animation: 500ms; */
+    /* animation-delay: 500ms; */
+    box-shadow: 0px 8px 12px 0px rgb(255, 255, 255);
+}
